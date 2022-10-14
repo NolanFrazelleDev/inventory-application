@@ -1,1 +1,3 @@
 Have an object of properties that determine the inventory. Some keys for this object include name, number of items to be inventoried, date added, date to reorder/throw away/use by date, deleted property, picture for inventory, picture for each individual items. This object is what will be rendered in the feed section. The feed section will be the users inventory screen. So maybe instead of displaying this. We will display all of the users inventories that are simply just objects. Clicking the object/inventory will bring up another screen, kind of like an individual post that you view the inventory and change things as needed. 
+
+Update This and add more once the top is finished
