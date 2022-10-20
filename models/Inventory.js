@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 const InventorySchema = new mongoose.Schema({
-  title: {
+  name: {
     type: String,
     required: true,
   },
@@ -13,11 +13,7 @@ const InventorySchema = new mongoose.Schema({
     type: String,
     require: true,
   },
-  caption: {
-    type: String,
-    required: true,
-  },
-  likes: {
+  numberOfItems: {
     type: Number,
     required: true,
   },
