@@ -9,7 +9,8 @@ Regarding the object and actually making an inventory of things. With the number
 
 
 
-
+DEMO USERS FOR APP:
+    -user1/user1234
 
 THINGS TO DO NEXT DAY: 
     -Make an inventory route with the base /profile/inventory/:id being the 'manangment' page that comes from the feed section from BUB. 
