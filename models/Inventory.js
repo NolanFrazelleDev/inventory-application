@@ -7,15 +7,15 @@ const InventorySchema = new mongoose.Schema({
   },
   image: {
     type: String,
-    require: true,
+    require: false,
   },
   cloudinaryId: {
     type: String,
-    require: true,
+    require: false,
   },
   numberOfItems: {
     type: Number,
-    required: true,
+    required: false,
   },
   user: {
     type: mongoose.Schema.Types.ObjectId,

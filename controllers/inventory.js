@@ -32,11 +32,10 @@ module.exports = {
       const result = await cloudinary.uploader.upload(req.file.path);
 
       await Inventory.create({
-        title: req.body.title,
+        name: req.body.name,
         image: result.secure_url,
         cloudinaryId: result.public_id,
-        caption: req.body.caption,
-        likes: 0,
+        numberOfItems: req.body.numberOfItems,
         user: req.user.id,
       });
       console.log("Post has been added!");
